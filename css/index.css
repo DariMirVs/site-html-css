@@ -1,0 +1,42 @@
+body {
+max-width: 980px;
+margin: auto;
+}
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+header nav .logo{
+    font-family: 'Georgia', regular;
+    font-size: 4rem;
+    margin: 15;
+    text-align: center;
+}
+header nav .top-menu {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+}
+
+header nav .top-menu li a {
+    text-transform: uppercase;
+    color: var(--main-color);
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header nav. top-menu li a:hover {
+    border: 1px solid var(--main-color);
+}
+
+@media (min-width: 500px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+
