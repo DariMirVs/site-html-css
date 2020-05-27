@@ -2,19 +2,21 @@ body {
 max-width: 980px;
 margin: auto;
 }
+
 h2 {
   text-align: center;
 }
 
 h3 {
-  text-align: center;
+    color:#629c44;
+    text-align: center;
 }
 
 header nav .logo{
-    font-family: 'Georgia', regular;
+    font-family: 'Georgia'; regular;
     font-size: 4rem;
     margin: 15;
-    text-align: center;
+    text-align: : center;
 }
 header nav .top-menu {
         display: flex;
@@ -30,7 +32,7 @@ header nav .top-menu li a {
     padding: 5px;
 }
 
-header nav. top-menu li a:hover {
+header nav .top-menu li a:hover {
     border: 1px solid var(--main-color);
 }
 
@@ -39,4 +41,3 @@ header nav. top-menu li a:hover {
         display: flex;
         align-items: center;
     }
-
